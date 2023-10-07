@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "author": "jmh",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd-mobile": "^5.32.4",
+    "umi": "^4.0.83"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "typescript": "^5.2.2"
+  }
+}
